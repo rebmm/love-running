@@ -23,6 +23,7 @@ h1,h2{
 #logo{
   float:left;
   font-size: 280%;
+  margin-left: 30px;
 }
 #menu{
   font: size 110%;
@@ -90,7 +91,7 @@ h1,h2{
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  
+
   width: 300px;
   height: 200px;
 
@@ -104,4 +105,28 @@ h1,h2{
 
   position: absolute;
 
+}
+
+/* club ethos */
+
+#club-ethos{
+  height: 600px;
+}
+
+#left-about{
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+
+}
+
+#right-about{
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+
+#center-about{
+  width: 33%;
+  margin: 0 auto; /*centers the div*/
 }
